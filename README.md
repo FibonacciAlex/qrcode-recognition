@@ -5,6 +5,7 @@ Computer Vision demo, use openCV to recognize qrcode
 - C++
 - OpenCV
 - VScode
+- CMake
 
 ## Key Points
 - The testing image is a color 2D barcode.
