@@ -16,3 +16,21 @@ space. The encoding color was presented below.
 
 ## The encoding table
 ![image](https://github.com/user-attachments/assets/2b1af9b3-5032-4b92-bfa6-6423daed9818)
+
+
+## How to run the code
+Run the commands below:
+
+`
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" \
+-DCMAKE_C_COMPILER=D:/software/mingw64/bin/gcc.exe \
+-DCMAKE_CXX_COMPILER=D:/software/mingw64/bin/g++.exe \
+-DCMAKE_MAKE_PROGRAM=D:/software/mingw64/bin/make.exe \
+..
+
+`
+Note: Remember to replace the path variable to your own system path.
+
+And then, run `make` command to create the executable file.
