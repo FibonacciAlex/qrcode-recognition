@@ -19,9 +19,10 @@ space. The encoding color was presented below.
 
 
 ## How to run the code
+### Compile
 Run the commands below:
 
-`
+```
 mkdir build
 cd build
 cmake -G "MinGW Makefiles" \
@@ -30,7 +31,17 @@ cmake -G "MinGW Makefiles" \
 -DCMAKE_MAKE_PROGRAM=D:/software/mingw64/bin/make.exe \
 ..
 
-`
+```
 Note: Remember to replace the path variable to your own system path.
 
 And then, run `make` command to create the executable file.
+Once everything goes well, you will find `main` or `main.exe` file was created in build folder.
+### Run
+#### Windows OS
+```
+.\main.exe ..\test-images\Darwin.jpg
+```
+#### Linux OS
+```
+./main ../test-images/Darwin.jpg
+```
